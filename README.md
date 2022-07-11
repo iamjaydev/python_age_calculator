@@ -1,6 +1,6 @@
 # Age Calculator (Basic)
 
-An age calculator on python by jaydev prajapati
+An age calculator on python by Jaydev Prajapati
 
 ![project demo](https://i.imgur.com/yfby6Ll.png)
 
