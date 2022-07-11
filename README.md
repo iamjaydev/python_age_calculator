@@ -1,4 +1,4 @@
-# Age Calculator
+# Age Calculator (Basic)
 
 An age calculator on python by jaydev prajapati
 
