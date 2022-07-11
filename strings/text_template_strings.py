@@ -8,7 +8,7 @@ AGE_RESULT_TEMPLATE = """
     {hours} hours or
     {minutes} minutes or
     {seconds} seconds or
-    {milliseconds} milliseconds or
+    {milliseconds} milliseconds
     old!
 ---------------------------------------------------
 """

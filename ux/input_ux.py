@@ -1,24 +1,31 @@
 from logic import is_valid_date_string
 
 
-def date_input(instructionMessage, errorMessage):
+def date_input(name, instructionMessage, errorMessage):
     """
     Get inputted date
 
     Arguments:
-        instructionMessage: string (message to show on beginning)
+        name: string (Name to show when inputting date)
+        instructionMessage: string (message to show as input instruction)
         errorMessage: string (message to show when input is wrong)
 
     Returns:
         string (user inputted date in dd-mm-yyyy format)
     """
-    print("─" * len(instructionMessage))
+    divider = "─" * len(instructionMessage)
+    print(divider)
     print(instructionMessage)
-    date_input = input("BirthDate: ")
+
+    input_name_message = name + ":"
+    date_input = input(input_name_message)
+
     while not is_valid_date_string(date_input):
         if not is_valid_date_string(date_input):
             print("─" * len(errorMessage))
             print(errorMessage)
-        date_input = input("BirthDate: ")
-    print("─" * len(instructionMessage))
+        date_input = input(input_name_message)
+
+    print(divider)
+
     return date_input

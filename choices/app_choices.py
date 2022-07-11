@@ -30,10 +30,15 @@ def handleChoice():
     selected_choice = get_selected_choice(user_choice)
     if len(selected_choice) > 0:
         choice_handler = selected_choice[0]
-        choice_handler_active = not choice_handler()
+        choice_handler()
     else:
         print("please choose valid option")
         return False
+
+
+def quit_choices():
+    global choice_handler_active
+    choice_handler_active = False
 
 
 def init_choices():
