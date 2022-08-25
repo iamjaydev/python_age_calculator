@@ -1,6 +1,8 @@
-# Age Calculator (Basic)
+# Age Calculator in Python(Basic)
 
 An age calculator on python by Jaydev Prajapati
+
+This is a python beginner project.
 
 ![project demo](https://i.imgur.com/yfby6Ll.png)
 
@@ -20,4 +22,4 @@ Install python if you haven't already.
    ```bash
     python main.py
    ```
-5. Done!
+5. Done! you are ready to use python age calculator!
